@@ -1,13 +1,32 @@
+@font-face {
+  font-family: "SimplonBold";
+  src: url(assets/fonts/SimplonBP-Bold.ttf) format("opentype");
+}
+@font-face {
+  font-family: "Simplon";
+  src: url(assets/fonts/SimplonBP-Medium.ttf) format("opentype");
+}
+@font-face {
+  font-family: "SimplonLight";
+  src: url(assets/fonts/SimplonBP-Light.ttf) format("opentype");
+}
+@font-face {
+  font-family: "Cako";
+  src: url(assets/fonts/Cako\ Black.otf) format("opentype");
+}
+@font-face {
+  font-family: "Blimey";
+  src: url(assets/fonts/Cako\ Black.otf) format("opentype");
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Cako", "Times New Roman", Times, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
