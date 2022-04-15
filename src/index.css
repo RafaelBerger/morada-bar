@@ -16,12 +16,34 @@
 }
 @font-face {
   font-family: "Blimey";
-  src: url(assets/fonts/Cako\ Black.otf) format("opentype");
+  src: url(assets/fonts/Blimey-TRIAL-BoldA.otf) format("opentype");
+}
+
+:root {
+  --yellow: #fac800;
+  --blue: #002d46;
+  --pink: #e68782;
+  --white: #ffffff;
+}
+
+a {
+  color: var(--blue);
+}
+
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  margin: 0;
-  font-family: "Cako", "Times New Roman", Times, serif;
+  font-family: "Simplon", "Times New Roman", Times, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -29,4 +51,12 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* =============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
+@media screen and (max-width: 1100px) {
+}
+
+/* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
+@media screen and (max-width: 600px) {
 }
