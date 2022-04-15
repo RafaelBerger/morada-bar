@@ -1,0 +1,19 @@
+#header-container {
+  width: 100vw;
+  height: 4rem;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: var(--yellow);
+
+  position: fixed;
+}
+
+#morada-home {
+  font-size: 1.5rem;
+  /* font-weight: bold; */
+  color: var(--blue);
+  font-family: "Blimey";
+}

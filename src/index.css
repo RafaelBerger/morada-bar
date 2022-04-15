@@ -16,12 +16,24 @@
 }
 @font-face {
   font-family: "Blimey";
-  src: url(assets/fonts/Cako\ Black.otf) format("opentype");
+  src: url(assets/fonts/Blimey-TRIAL-BoldA.otf) format("opentype");
+}
+
+:root {
+  --yellow: #fac800;
+  --blue: #002d46;
+  --pink: #e68782;
+  --white: #ffffff;
+}
+
+* {
+  text-decoration: none;
 }
 
 body {
   margin: 0;
-  font-family: "Cako", "Times New Roman", Times, serif;
+  padding: 0;
+  font-family: "Simplon", "Times New Roman", Times, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
