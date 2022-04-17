@@ -1,0 +1,46 @@
+#apresentacao-bg {
+  width: 100vw;
+  height: 65vh;
+  overflow-x: hidden;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("../../assets/images/background-apresentacao.png");
+}
+
+#apresentacao-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+#apresentacao-items img {
+  width: 95%;
+}
+
+#apresentacao-items div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+
+/* =============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
+@media screen and (max-width: 1100px) {
+  #apresentacao-items div {
+    width: 35%;
+  }
+}
+
+/* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
+@media screen and (max-width: 600px) {
+  #apresentacao-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #apresentacao-items div {
+    width: 70%;
+  }
+}
