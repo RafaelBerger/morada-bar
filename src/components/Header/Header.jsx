@@ -1,6 +1,5 @@
 import React from "react";
 import "./header.css";
-import "../../index.css";
 
 const Header = () => {
   return (
@@ -8,7 +7,7 @@ const Header = () => {
       <div id="header-bg">
         <div id="header-container">
           <div id="title">
-            <a href="#" id="morada-home">
+            <a href="#apresentacao-bg" id="morada-home">
               Morada
             </a>
           </div>

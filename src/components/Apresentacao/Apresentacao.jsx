@@ -6,7 +6,7 @@ import SanduicheApresentacao from "../../assets/images/sanduiche.png";
 const Apresentacao = () => {
   return (
     <>
-      <section id="apresentacao-bg">
+      <div id="apresentacao-bg">
         <div id="apresentacao-items">
           <div>
             <img src={LogoApresentacao} alt="Logo de apresentação" />
@@ -15,7 +15,7 @@ const Apresentacao = () => {
             <img src={SanduicheApresentacao} alt="Lanche de apresentação" />
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 };
