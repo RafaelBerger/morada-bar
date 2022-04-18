@@ -7,7 +7,7 @@ const Header = () => {
       <div id="header-bg">
         <div id="header-container">
           <div id="title">
-            <a href="#apresentacao-bg" id="morada-home">
+            <a href="#" id="morada-home">
               Morada
             </a>
           </div>
