@@ -28,6 +28,7 @@
 
 a {
   color: var(--blue);
+  padding: 10px;
 }
 
 * {
