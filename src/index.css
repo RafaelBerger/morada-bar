@@ -49,6 +49,7 @@ body {
   overflow-x: hidden;
   /* background-image: url("assets/images/bg-texture.png"); */
   background-color: var(--white);
+  padding-top: 4rem;
 }
 
 section {

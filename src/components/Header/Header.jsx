@@ -12,12 +12,12 @@ const Header = () => {
             </a>
           </div>
 
-          <div id="header-items">
+          <nav id="header-items">
             <a href="#sobre">Sobre</a>
             <a href="#cardapio">Cardápio</a>
             <a href="#localizacao">Localização</a>
             <a href="#contato">Contato</a>
-          </div>
+          </nav>
         </div>
       </div>
     </>

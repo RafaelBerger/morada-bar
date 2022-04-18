@@ -4,7 +4,7 @@ import ImagemSobre from "../../assets/images/sanduiche5.jpg";
 
 const Sobre = () => {
   return (
-    <section>
+    <section id="sobre">
       <article id="sobre-container">
         <h3>Sobre nós</h3>
         <div id="sobre-conteudo">
