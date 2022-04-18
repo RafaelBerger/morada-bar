@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 75vh;
+  height: 60vh;
 }
 
 #sobre-container img {
@@ -58,6 +58,12 @@
 
   #sobre-texto h1 {
     font-size: 1.5rem;
+  }
+  /* #sobre-conteudo {
+    height: 50vh;
+  } */
+  #sobre-container {
+    height: 40vh;
   }
 }
 
