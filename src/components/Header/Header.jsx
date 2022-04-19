@@ -2,24 +2,41 @@ import React from "react";
 import "./header.css";
 
 const Header = () => {
+  const navbarLinks = document.getElementsByClassName("navbar-links")[0];
   return (
     <>
-      <div id="header-bg">
-        <div id="header-container">
-          <div id="title">
-            <a href="#" id="morada-home">
-              Morada
-            </a>
-          </div>
-
-          <nav id="header-items">
-            <a href="#sobre">Sobre</a>
-            <a href="#cardapio">Cardápio</a>
-            <a href="#localizacao">Localização</a>
-            <a href="#contato">Contato</a>
-          </nav>
+      <nav className="navbar">
+        <a href="#" className="brand-title">
+          Morada
+        </a>
+        <a
+          href="#"
+          className="toggle-button"
+          onClick={() => {
+            navbarLinks.classList.toggle("active");
+          }}
+        >
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
+        </a>
+        <div className="navbar-links">
+          <ul>
+            <li>
+              <a href="#sobre">Sobre</a>
+            </li>
+            <li>
+              <a href="#">Cardápio</a>
+            </li>
+            <li>
+              <a href="#">Localização</a>
+            </li>
+            <li>
+              <a href="#">Contato</a>
+            </li>
+          </ul>
         </div>
-      </div>
+      </nav>
     </>
   );
 };

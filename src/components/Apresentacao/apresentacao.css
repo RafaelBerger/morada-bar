@@ -12,6 +12,7 @@
   justify-content: space-around;
   align-items: center;
   height: 100%;
+  padding-top: 4rem;
 }
 
 #apresentacao-items img {
@@ -39,6 +40,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    padding-top: 5rem;
   }
   #apresentacao-items div {
     width: 70%;
