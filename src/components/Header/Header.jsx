@@ -10,7 +10,6 @@ const Header = () => {
           Morada
         </a>
         <a
-          href="#"
           className="toggle-button"
           onClick={() => {
             navbarLinks.classList.toggle("active");
@@ -26,7 +25,7 @@ const Header = () => {
               <a href="#sobre">Sobre</a>
             </li>
             <li>
-              <a href="#">Cardápio</a>
+              <a href="#cardapio">Cardápio</a>
             </li>
             <li>
               <a href="#">Localização</a>
