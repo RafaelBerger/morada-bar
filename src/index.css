@@ -38,8 +38,6 @@ a:hover {
 
 * {
   text-decoration: none;
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   list-style: none;
 }
@@ -54,8 +52,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
   /* background-image: url("assets/images/bg-texture.png"); */
+  margin: 0;
+  padding: 0;
   background-color: var(--white);
-  padding-top: 4rem;
 }
 
 section {
