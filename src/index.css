@@ -29,6 +29,11 @@
 a {
   color: var(--blue);
   padding: 10px;
+  transition: all 200ms ease;
+}
+
+a:hover {
+  color: var(--pink);
 }
 
 * {
