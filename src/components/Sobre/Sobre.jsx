@@ -13,7 +13,6 @@ const Sobre = () => {
           </div>
           <div id="sobre-texto">
             <h1>Bem-vindo ao Morada</h1>
-
             <p>
               O MORADA nasceu para todos se sentirem em casa em qualquer rolê e
               para resolver uma dor latente no público do ABC: Sair de suas
