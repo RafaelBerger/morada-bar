@@ -3,9 +3,8 @@ import { useState } from "react";
 import "./header.css";
 
 const Header = () => {
-  const [navbarLinks, setNavbarLinks] = useState(
-    document.getElementsByClassName("navbar-links")[0]
-  );
+  const [isNavBarOpen, setIsNavBarOpen] = useState(false);
+
   return (
     <>
       <nav className="navbar">
@@ -14,18 +13,13 @@ const Header = () => {
         </a>
         <a
           className="toggle-button"
-          onClick={() => {
-            //TODO: só está funcionado a partir do segundo clique, arrumar isso para
-            // funcionar no primeiro
-            setNavbarLinks(document.getElementsByClassName("navbar-links")[0]);
-            navbarLinks.classList.toggle("active");
-          }}
+          onClick={() => setIsNavBarOpen(!isNavBarOpen)}
         >
           <span className="bar"></span>
           <span className="bar"></span>
           <span className="bar"></span>
         </a>
-        <div className="navbar-links">
+        <div className={`navbar-links ${isNavBarOpen ? "active" : ""}`}>
           <ul>
             <li>
               <a href="#sobre">Sobre</a>
