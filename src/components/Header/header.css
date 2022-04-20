@@ -1,4 +1,5 @@
 .navbar {
+  z-index: 2;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -26,6 +27,7 @@
 }
 
 .toggle-button {
+  cursor: pointer;
   position: absolute;
   top: 0.7rem;
   right: 0.3rem;
