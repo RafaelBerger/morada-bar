@@ -1,8 +1,11 @@
 import React from "react";
+import { useState } from "react";
 import "./header.css";
 
 const Header = () => {
-  const navbarLinks = document.getElementsByClassName("navbar-links")[0];
+  const [navbarLinks, setNavbarLinks] = useState(
+    document.getElementsByClassName("navbar-links")[0]
+  );
   return (
     <>
       <nav className="navbar">
@@ -12,6 +15,9 @@ const Header = () => {
         <a
           className="toggle-button"
           onClick={() => {
+            //TODO: só está funcionado a partir do segundo clique, arrumar isso para
+            // funcionar no primeiro
+            setNavbarLinks(document.getElementsByClassName("navbar-links")[0]);
             navbarLinks.classList.toggle("active");
           }}
         >
