@@ -78,7 +78,7 @@
     transform: translateY(8px) rotate(-50deg);
   }
   .bar.bar2 {
-    margin-left: 220px;
+    display: none;
   }
   .bar.bar3 {
     transform: translateY(-8px) rotate(50deg);
