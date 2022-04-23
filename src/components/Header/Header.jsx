@@ -15,9 +15,9 @@ const Header = () => {
           className="toggle-button"
           onClick={() => setIsNavBarOpen(!isNavBarOpen)}
         >
-          <span className="bar"></span>
-          <span className="bar"></span>
-          <span className="bar"></span>
+          <span className={`bar ${isNavBarOpen ? "bar1" : ""}`}></span>
+          <span className={`bar ${isNavBarOpen ? "bar2" : ""}`}></span>
+          <span className={`bar ${isNavBarOpen ? "bar3" : ""}`}></span>
         </a>
         <div className={`navbar-links ${isNavBarOpen ? "active" : ""}`}>
           <ul>
@@ -26,6 +26,9 @@ const Header = () => {
             </li>
             <li>
               <a href="#cardapio">Cardápio</a>
+            </li>
+            <li>
+              <a href="#depoimentos">Depoimentos</a>
             </li>
             <li>
               <a href="#">Localização</a>

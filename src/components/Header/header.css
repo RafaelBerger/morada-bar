@@ -52,6 +52,7 @@
   .toggle-button {
     display: flex;
   }
+
   .navbar-links {
     display: none;
     width: 100%;
@@ -72,5 +73,17 @@
   }
   .navbar-links.active {
     display: flex;
+  }
+  .bar.bar1 {
+    transform: translateY(8px) rotate(-50deg);
+  }
+  .bar.bar2 {
+    margin-left: 220px;
+  }
+  .bar.bar3 {
+    transform: translateY(-8px) rotate(50deg);
+  }
+  .bar {
+    transition: all 0.3s ease;
   }
 }
