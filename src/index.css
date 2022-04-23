@@ -24,12 +24,15 @@
   --blue: #002d46;
   --pink: #e68782;
   --white: #ffffff;
+  --color-hover: #c9a100;
+  --transition: all 200ms ease;
 }
 
 a {
   color: var(--blue);
+  height: 100%;
   padding: 10px;
-  transition: all 200ms ease;
+  transition: var(--transition);
 }
 
 a:hover {
@@ -61,7 +64,12 @@ section {
   margin-top: 5rem;
   width: 100vw;
 }
-
+.centralizar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 h3 {
   font-size: 1.5rem;
   color: var(--pink);
