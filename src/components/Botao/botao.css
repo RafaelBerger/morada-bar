@@ -1,0 +1,23 @@
+#botao {
+  font-family: "Blimey";
+  font-size: 1.5rem;
+  width: 8rem;
+  padding: 1rem;
+  background-color: var(--yellow);
+  color: var(--blue);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: 4px 5px 16px 5px rgba(0, 0, 0, 0.33);
+  box-shadow: 4px 5px 16px 5px rgba(0, 0, 0, 0.33);
+  transition: var(--transition);
+}
+#botao a {
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+}
+
+#botao:hover {
+  background-color: var(--color-hover);
+}
