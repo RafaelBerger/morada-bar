@@ -1,0 +1,35 @@
+#localizacao {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#localizacao p {
+  font-size: 1.5rem;
+}
+
+.localizacao-bg {
+  margin-top: 2rem;
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--yellow);
+}
+
+#mapa {
+  width: 90%;
+  height: 95%;
+  border-radius: 15px;
+  border: none;
+}
+
+/* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
+@media screen and (max-width: 600px) {
+  #localizacao p {
+    font-size: 1.2rem;
+  }
+}
