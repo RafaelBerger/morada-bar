@@ -4,6 +4,7 @@ import Sobre from "./components/Sobre/Sobre";
 import Cardapio from "./components/Cardapio/Cardapio";
 import Depoimentos from "./components/Depoimentos/Depoimentos";
 import Localizacao from "./components/Localizacao/Localizacao";
+import Contato from "./components/Contato/Contato";
 import "./index.css";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Cardapio />
       <Depoimentos />
       <Localizacao />
+      <Contato />
     </>
   );
 }

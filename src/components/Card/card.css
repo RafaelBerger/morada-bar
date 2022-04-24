@@ -1,0 +1,52 @@
+.card-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 24rem;
+  padding: 1.2rem;
+  margin-bottom: 1rem;
+
+  border-radius: 1.2rem;
+  color: var(--white);
+  background-color: var(--blue);
+
+  transition: var(--transition);
+}
+
+.icone-card {
+  color: var(--yellow);
+  font-size: 2rem;
+}
+.link-card {
+  color: var(--yellow);
+  padding: 1rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.link-card:hover {
+  color: var(pink);
+}
+
+.titulo-card {
+  font-size: 1.2rem;
+  font-family: "Simplon-bold", "Times New Roman", Times, serif;
+}
+
+.conteudo-card {
+  font-size: 1rem;
+}
+
+.card-bg h1,
+p {
+  margin: 0.2rem;
+}
+
+.texto-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0.5rem 0;
+  gap: 0.1rem;
+}
