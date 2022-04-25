@@ -50,3 +50,14 @@ p {
   margin: 0.5rem 0;
   gap: 0.1rem;
 }
+
+/* =============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
+@media screen and (max-width: 1100px) {
+  .card-bg {
+    width: 20rem;
+  }
+}
+
+/* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
+@media screen and (max-width: 600px) {
+}
