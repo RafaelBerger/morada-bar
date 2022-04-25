@@ -34,7 +34,7 @@ const Header = () => {
               <a href="#localizacao">Localização</a>
             </li>
             <li>
-              <a href="#">Contato</a>
+              <a href="#contato">Contato</a>
             </li>
           </ul>
         </div>
