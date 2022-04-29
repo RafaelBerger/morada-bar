@@ -14,9 +14,11 @@ const Sobre = () => {
           <div id="sobre-texto">
             <h1>Bem-vindo ao Morada</h1>
             <p>
-              O MORADA nasceu para todos se sentirem em casa em qualquer rolê e
-              para resolver uma dor latente no público do ABC: Sair de suas
-              cidades para viver experiências que não encontram por aqui.
+              Um bar como deve ser. Uma versão melhorada das suas lembranças de
+              festa de família na infância: a sensação de conforto da casa dos
+              avós, só que em uma eterna comemoração, sem adultos - apenas com
+              seus primos preferidos - onde as possibilidades parecem infinitas
+              e o mundo lá fora é incapaz de te alcançar.
             </p>
           </div>
         </div>
