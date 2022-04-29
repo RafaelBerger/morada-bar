@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Morada-Bar
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+LandingPage SPA para o MoradaBar
 
-## Available Scripts
+<div align="left">
+ <img src="https://user-images.githubusercontent.com/84355579/166074258-3dabb47a-2cca-4056-8fc8-2315da25156e.jpg" width="450px" />
+</div>
+<div>
+  <img src="https://user-images.githubusercontent.com/84355579/166074264-4973d2bc-6c9d-4faa-b28a-694a39efca7e.jpg" width="450px" />
+</div>
 
-In the project directory, you can run:
 
-### `npm start`
+## Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Site responsivo
+- Criado usando React
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Bibliotecas utilizadas
 
-### `npm test`
+- React Icons
+- SwiperJS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tecnologias utilizadas
 
-### `npm run build`
+![React](https://img.shields.io/badge/React-0A66C2?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[![Javascript](https://camo.githubusercontent.com/aeddc848275a1ffce386dc81c04541654ca07b2c43bbb8ad251085c962672aea/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6a6176617363726970742d2532333332333333302e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d253233463744463145)]()
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Autores
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [@RafaelBerger](https://www.github.com/RafaelBerger)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+##  ⇩	⇩	 English Version  ⇩	⇩	
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+# Morada Bar
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+LandingPage SPA for MoradaBar
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<div align="left">
+ <img src="https://user-images.githubusercontent.com/84355579/166074258-3dabb47a-2cca-4056-8fc8-2315da25156e.jpg" width="450px" />
+</div>
+<div>
+  <img src="https://user-images.githubusercontent.com/84355579/166074264-4973d2bc-6c9d-4faa-b28a-694a39efca7e.jpg" width="450px" />
+</div>
 
-### Code Splitting
+## Functionalities
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Responsive
+- React
 
-### Analyzing the Bundle Size
+## Used Libraries
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- React Icons
+- SwiperJS
 
-### Making a Progressive Web App
+## Used Technologies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![React](https://img.shields.io/badge/React-0A66C2?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-### Advanced Configuration
+[![Javascript](https://camo.githubusercontent.com/aeddc848275a1ffce386dc81c04541654ca07b2c43bbb8ad251085c962672aea/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6a6176617363726970742d2532333332333333302e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d253233463744463145)]()
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Authors
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [@RafaelBerger](https://www.github.com/RafaelBerger)
