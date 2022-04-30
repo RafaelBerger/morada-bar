@@ -16,7 +16,7 @@ const Localizacao = () => {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
             id="mapa"
-          ></iframe>
+          />
         </div>
       </article>
     </section>
