@@ -38,7 +38,7 @@ LandingPage SPA para o MoradaBar
 
 # Morada Bar
 
-LandingPage SPA for MoradaBar
+LandingPage SPA to MoradaBar
 
 <div align="left">
  <img src="https://user-images.githubusercontent.com/84355579/166074258-3dabb47a-2cca-4056-8fc8-2315da25156e.jpg" width="450px" />
