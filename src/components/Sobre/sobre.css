@@ -18,7 +18,7 @@
 }
 
 #sobre-conteudo {
-  margin-top: 1rem;
+  margin-top: 3rem;
   width: 75vw;
   height: auto;
   display: grid;
@@ -38,18 +38,16 @@
   gap: 2rem;
 
   text-align: justify;
-  font-size: 1.5rem;
-
   font-family: "Simplon";
   color: var(--blue);
 }
 #sobre-texto p {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 #sobre-texto h1 {
   font-family: "Blimey";
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   color: var(--blue);
   margin: 0;
 }
@@ -71,6 +69,7 @@
 /* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
 @media screen and (max-width: 600px) {
   #sobre-conteudo {
+    margin-top: 1rem;
     width: 90vw;
     height: 60vh;
     display: flex;
