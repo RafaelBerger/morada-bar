@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { React, useState, useEffect } from "react";
 import "./cardapio.css";
 // import cardapioRango from "../../assets/images/cardapio-rango.png";
 // import cardapioBirita from "../../assets/images/cardapio-birita.png";
@@ -16,6 +16,13 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 const Cardapio = () => {
+  const [slidePerView, setSlidePerView] = useState(true);
+  useEffect(() => {
+    window
+      .matchMedia("(min-width: 600px)")
+      .addEventListener("change", (e) => setSlidePerView(e.matches));
+  }, []);
+
   return (
     <>
       <section id="cardapio">
@@ -24,7 +31,7 @@ const Cardapio = () => {
           <Swiper
             modules={[Navigation]}
             spaceBetween={0}
-            slidesPerView={1}
+            slidesPerView={slidePerView ? 2 : 1}
             navigation
             scrollbar={{ draggable: true }}
             id="image-bg"
