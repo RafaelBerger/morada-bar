@@ -1,9 +1,11 @@
-import React from "react";
+import { React, useState, useEffect } from "react";
 import "./cardapio.css";
-import cardapioLanche1 from "../../assets/images/cardapio-lanche1.png";
-import cardapioLanche2 from "../../assets/images/cardapio-lanche2.png";
-import cardapioPorcoes1 from "../../assets/images/cardapio-porcoes1.png";
-import cardapioPorcoes2 from "../../assets/images/cardapio-porcoes2.png";
+// import cardapioRango from "../../assets/images/cardapio-rango.png";
+// import cardapioBirita from "../../assets/images/cardapio-birita.png";
+import cardapioRango1 from "../../assets/images/cardapio-rango1.jpg";
+import cardapioRango2 from "../../assets/images/cardapio-rango2.jpg";
+import cardapioBirita1 from "../../assets/images/cardapio-birita1.jpg";
+import cardapioBirita2 from "../../assets/images/cardapio-birita2.jpg";
 
 import { Navigation } from "swiper";
 
@@ -14,6 +16,13 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 const Cardapio = () => {
+  const [slidePerView, setSlidePerView] = useState(true);
+  useEffect(() => {
+    window
+      .matchMedia("(min-width: 600px)")
+      .addEventListener("change", (e) => setSlidePerView(e.matches));
+  }, []);
+
   return (
     <>
       <section id="cardapio">
@@ -22,33 +31,33 @@ const Cardapio = () => {
           <Swiper
             modules={[Navigation]}
             spaceBetween={0}
-            slidesPerView={1}
+            slidesPerView={slidePerView ? 2 : 1}
             navigation
             scrollbar={{ draggable: true }}
             id="image-bg"
           >
             <SwiperSlide>
               <img
-                src={cardapioLanche1}
+                src={cardapioRango1}
                 alt="Primeira parte do cardápio de lanches"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src={cardapioLanche2}
+                src={cardapioRango2}
                 alt="Segunda parte do cardápio de lanches"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src={cardapioPorcoes1}
-                alt="Primeira parte do cardápio de porções"
+                src={cardapioBirita1}
+                alt="Primeira parte do cardápio de bebidas"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src={cardapioPorcoes2}
-                alt="Segunda parte do cardápio de porções"
+                src={cardapioBirita2}
+                alt="Segunda parte do cardápio de bebidas"
               />
             </SwiperSlide>
           </Swiper>
