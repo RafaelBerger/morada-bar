@@ -19,7 +19,7 @@ const Cardapio = () => {
   const [slidePerView, setSlidePerView] = useState(true);
   useEffect(() => {
     window
-      .matchMedia("(min-width: 600px)")
+      .matchMedia("(min-width: 1100px)")
       .addEventListener("change", (e) => setSlidePerView(e.matches));
   }, []);
 
