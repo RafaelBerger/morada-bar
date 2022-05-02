@@ -16,7 +16,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 const Cardapio = () => {
-  const [slidePerView, setSlidePerView] = useState(true);
+  const [slidePerView, setSlidePerView] = useState(
+    window.matchMedia("(min-width: 1100px)").matches
+  );
   useEffect(() => {
     window
       .matchMedia("(min-width: 1100px)")
