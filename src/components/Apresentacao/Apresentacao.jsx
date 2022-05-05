@@ -5,7 +5,6 @@ import Sanduiche from "../../assets/images/sanduiche.png";
 import Sanduiche2 from "../../assets/images/sanduiche2.jpg";
 import Sanduiche3 from "../../assets/images/sanduiche3.jpg";
 import Sanduiche4 from "../../assets/images/sanduiche4.jpg";
-import Sanduiche5 from "../../assets/images/sanduiche5.jpg";
 import Sanduiche6 from "../../assets/images/sanduiche6.jpg";
 import bolinho from "../../assets/images/bolinho.jpg";
 

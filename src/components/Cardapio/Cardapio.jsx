@@ -5,7 +5,6 @@ import CARDAPIO2 from "../../assets/images/cardapio2.png";
 import CARDAPIO3 from "../../assets/images/cardapio3.png";
 import CARDAPIO4 from "../../assets/images/cardapio4.png";
 import CARDAPIO5 from "../../assets/images/cardapio5.png";
-import CARDAPIO6 from "../../assets/images/cardapio6.png";
 import CARDAPIO7 from "../../assets/images/cardapio7.png";
 import CARDAPIO8 from "../../assets/images/cardapio8.png";
 import CARDAPIO9 from "../../assets/images/cardapio9.png";
@@ -31,8 +30,8 @@ const Cardapio = () => {
 
   return (
     <>
-      <section id='cardapio'>
-        <article id='cardapio-bg'>
+      <section id="cardapio">
+        <article id="cardapio-bg">
           <h3>Cardápio</h3>
           <Swiper
             modules={[Navigation]}
@@ -40,7 +39,7 @@ const Cardapio = () => {
             slidesPerView={slidePerView ? 2 : 1}
             navigation
             scrollbar={{ draggable: true }}
-            id='image-bg'
+            id="image-bg"
           >
             <SwiperSlide>
               <img src={CARDAPIO1} />
@@ -56,9 +55,6 @@ const Cardapio = () => {
             </SwiperSlide>
             <SwiperSlide>
               <img src={CARDAPIO5} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={CARDAPIO6} />
             </SwiperSlide>
             <SwiperSlide>
               <img src={CARDAPIO7} />
