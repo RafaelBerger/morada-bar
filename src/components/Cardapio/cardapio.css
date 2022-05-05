@@ -10,9 +10,8 @@
 }
 
 #cardapio-bg img {
-  width: auto;
-  height: 90%;
-  padding-left: 10px;
+  width: 85%;
+  height: auto;
   border-radius: 2rem 2rem 2rem 2rem;
 }
 
@@ -21,8 +20,8 @@
   justify-content: center;
   align-items: center;
 
-  height: 80vh;
-  width: 41vw;
+  height: 70vh;
+  width: 60vw;
 
   border-radius: 1rem;
   background-color: var(--yellow);
@@ -38,6 +37,8 @@
   align-items: center;
   margin: 0;
   padding: 0;
+  width: 50%;
+  height: auto;
 }
 
 @media screen and (max-width: 1100px) {
@@ -48,18 +49,29 @@
 
 @media screen and (max-width: 600px) {
   #cardapio-bg {
-    height: 95vh;
+    height: 80vh;
+  }
+  #cardapio h3 {
+    margin-top: 0;
   }
   #cardapio-bg img {
-    width: auto;
-    height: 85%;
+    width: 80%;
+
     transform: scale(1.15);
   }
   #image-bg {
-    width: 90vw;
-    height: 80vh;
+    width: 95vw;
+    height: 65vh;
   }
   #image-bg img:hover {
     transform: scale(1.15);
+  }
+}
+@media screen and (max-width: 380px) {
+  #cardapio-bg {
+    height: 90vh;
+  }
+  #image-bg {
+    height: 75vh;
   }
 }
