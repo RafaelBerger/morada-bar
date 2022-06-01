@@ -1,4 +1,5 @@
 import React from "react";
+import Botao from "../Botao/Botao";
 import "./localizacao.css";
 
 const Localizacao = () => {

@@ -1,7 +1,7 @@
 #botao {
   font-family: "Blimey";
   font-size: 1.5rem;
-  width: 8rem;
+  min-width: 8rem;
   padding: 1rem;
   background-color: var(--yellow);
   color: var(--blue);

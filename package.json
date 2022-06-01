@@ -1,5 +1,6 @@
 {
   "name": "morada-bar",
+  "homepage": "https://moradabar.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
