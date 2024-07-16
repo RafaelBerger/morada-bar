@@ -16,7 +16,7 @@ function App() {
       <Apresentacao />
       <Sobre />
       <Ifood />
-      {/* <Cardapio /> */}
+      <Cardapio />
       <Depoimentos />
       <Localizacao />
       <Contato />
