@@ -1,4 +1,4 @@
-import { React, useState, useEffect } from "react";
+import {useState, useEffect } from "react";
 import "./cardapio.css";
 import CARDAPIO1 from "../../assets/images/cardapio1.png";
 import CARDAPIO2 from "../../assets/images/cardapio2.png";
@@ -42,31 +42,31 @@ const Cardapio = () => {
             id="image-bg"
           >
             <SwiperSlide>
-              <img src={CARDAPIO1} />
+              <img alt="" src={CARDAPIO1} />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={CARDAPIO2} />
+              <img alt="" src={CARDAPIO2} />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={CARDAPIO3} />
+              <img alt="" src={CARDAPIO3} />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={CARDAPIO4} />
+              <img alt="" src={CARDAPIO4} />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={CARDAPIO5} />
+              <img alt="" src={CARDAPIO5} />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={CARDAPIO7} />
+              <img alt="" src={CARDAPIO7} />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={CARDAPIO8} />
+              <img alt="" src={CARDAPIO8} />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={CARDAPIO9} />
+              <img alt="" src={CARDAPIO9} />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={CARDAPIO10} />
+              <img alt="" src={CARDAPIO10} />
             </SwiperSlide>
           </Swiper>
         </article>

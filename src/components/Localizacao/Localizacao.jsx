@@ -8,7 +8,7 @@ const Localizacao = () => {
       <h3>Localização</h3>
       <article>
         <p>
-          Rua das Figueiras 2434
+          Rua Dona Júlia, 162
           <br /> Santo André - SP
         </p>
         <div className="localizacao-bg">
